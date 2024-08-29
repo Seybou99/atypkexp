@@ -9,6 +9,7 @@ import {
   HelpCircleIcon,
 } from "lucide-react";
 import { motion } from "framer-motion";
+
 const variants = {
   expanded: { width: "220px" },
   nonexpanded: { width: "60px" },
@@ -73,7 +74,7 @@ function Navbar() {
         onClick={() => setIsExpanded(!isExpanded)}
         className="cursor-pointer absolute -right-3 top-10 rounded-full w-6 h-6 bg-[#0a5c36] md:flex hidden justify-center items-center"
       >
-        <Image src="" alt="Right Arrow" width={8} height={8} />
+        {/* <Image src="" alt="Right Arrow" width={8} height={8} /> */}
       </div>
 
       <div className="logo-div flex space-x-4 items-center">
