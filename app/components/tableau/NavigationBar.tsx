@@ -23,24 +23,24 @@ const navLinks = [
   },
   {
     link: "/annonces",
-    label: "Activity",
+    label: "Annpnces",
     icon: Clock4Icon,
   },
-  {
-    link: "/commentaires",
-    label: "Posts",
-    icon: BarChart3Icon,
-  },
-  {
-    link: "/transactions",
-    label: "Transactions",
-    icon: ArrowLeftRightIcon,
-  },
-  {
-    link: "/support",
-    label: "Support",
-    icon: HelpCircleIcon,
-  },
+  // {
+  //   link: "/commentaires",
+  //   label: "Posts",
+  //   icon: BarChart3Icon,
+  // },
+  // {
+  //   link: "/transactions",
+  //   label: "Transactions",
+  //   icon: ArrowLeftRightIcon,
+  // },
+  // {
+  //   link: "/support",
+  //   label: "Support",
+  //   icon: HelpCircleIcon,
+  // },
 ];
 
 function Navbar() {
